@@ -32,8 +32,8 @@ Prikaz sadržaja korpe i vrijednosti korpe.
 
 Kako Pokrenuti Projekat
 Klonirajte ili preuzmite repozitorijum:
-git clone <repo-url>
-cd <repo-folder>
+git clone https://github.com/urosdedic/online_sales_analysis
+cd online_sales_analysis
 
 Pokrenite aplikaciju:
 python main.py
