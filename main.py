@@ -10,15 +10,9 @@ manager = ProductManager()
 manager.add_product(Product("Desktop", 1000, 3))
 manager.add_product(Product("Miš", 20, 70))
 manager.add_product(Product("Tastatura", 50, 20))
-manager.add_product(Product("Laptop", 1000, 5))
-manager.add_product(Product("Mouse", 20, 50))
-manager.add_product(Product("Keyboard", 50, 30))
 manager.add_product(Product("Monitor", 150, 10))
 manager.add_product(Product("USB Drive", 15, 100))
 
-# Prikazujemo sve proizvode
-print("All Products:")
-print(manager.display_all_products())
 
 # Kreiramo instancu klase Cart
 cart = Cart()
@@ -36,6 +30,3 @@ print(cart.display_cart())
 print("\nTotal Cart Value:")
 print(cart.calculate_total())
 
-# Prikazujemo ukupnu vrednost inventara
-print("\nTotal Inventory Value:")
-print(manager.total_inventory_value())
